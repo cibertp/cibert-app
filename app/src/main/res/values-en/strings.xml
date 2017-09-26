@@ -9,4 +9,7 @@
     <string name="hint_user">Usuario</string>
     <string name="hint_confirm_password">Confirmar contraseña</string>
     <string name="text_button_craateaccount">Unete</string>
+    <string name="username_card">poeta huaman</string>
+    <string name="firstWord_card">Hace</string>
+    <string name="timeCard_card">4 dias</string>
 </resources>

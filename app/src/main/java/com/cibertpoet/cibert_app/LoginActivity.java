@@ -20,5 +20,7 @@ public class LoginActivity extends AppCompatActivity {
         Intent i=new Intent(this, CreateAccountActivity.class);
         startActivity(i);
 
+
+
     }
 }

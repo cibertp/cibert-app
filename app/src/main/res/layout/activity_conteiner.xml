@@ -6,4 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.cibertpoet.cibert_app.view.ConteinerActivity">
 
+    <include layout="@layout/bottombar"></include>
+
 </android.support.constraint.ConstraintLayout>

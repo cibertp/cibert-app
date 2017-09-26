@@ -16,23 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <!-- programado pra el toolbar por cibert-->
+        <!-- programado pra el toolbar por cibert -->
 
-        <activity android:name=".view.CreateAccountActivity"
-         android:parentActivityName=".LoginActivity"
-            >
+        <activity
+            android:name=".view.CreateAccountActivity"
+            android:parentActivityName=".LoginActivity">
             <meta-data
                 android:name="androi.support.PARENT_ACTIVITY"
-                android:value=".LoginActivity"
-                />
+                android:value=".LoginActivity" />
         </activity>
 
-        <!-- fin  de la programacion cibert-->
+        <!-- fin  de la programacion cibert -->
 
         <activity
             android:name=".ReferenciaActivity"
             android:label="@string/title_activity_referencia"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.ConteinerActivity"></activity>
     </application>
 
 </manifest>

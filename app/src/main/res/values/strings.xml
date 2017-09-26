@@ -16,4 +16,14 @@
     <string name="firstWord_card">Hace</string>
     <string name="timeCard_card">4 dias</string>
     <string name="likeNumberCard">10 Me Gusta</string>
+
+    <!-- para la barra que aperesca el la barra de abajo-->
+    <string name="tab_search">Buscar</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_profile">Yo</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

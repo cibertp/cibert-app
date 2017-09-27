@@ -8,19 +8,6 @@
     tools:context="com.cibertpoet.cibert_app.view.fragment.HomeFragment" >
 
     <include layout="@layout/actionbar_toolbar"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-
-        android:paddingLeft="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_vertical_margin">
-
-
-
-    </LinearLayout>
 
     <include layout="@layout/bottombar"/>
 
@@ -32,6 +19,27 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@drawable/ic_plus" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <include layout="@layout/cardview_picture"/>
+
+
+        <include layout="@layout/cardview_picture"/>
+
+        <include layout="@layout/cardview_picture"/>
+
+
+
+
+    </LinearLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>

@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/bottomBark_height"
     android:layout_alignParentBottom="true"
-    android:layout_gravity="bottom|end"
+    android:layout_gravity="bottom"
     app:bb_activeTabColor="@android:color/white"
     app:bb_inActiveTabAlpha="@android:color/white"
 
@@ -15,7 +15,9 @@
     app:bb_tabXmlResource="@xml/bottombar_tabs"
 
     >
-    <!--incluyendo al proyecto bootomBar o el recurssi creadi -->
+    <!--incluyendo al proyecto bootomBar o el recurssi creadi
+
+     bottom |BASELINE-->
 
 
 </com.roughike.bottombar.BottomBar>

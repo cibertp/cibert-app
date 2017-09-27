@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.cibertpoet.cibert_app.view.ConteinerActivity;
 import com.cibertpoet.cibert_app.view.CreateAccountActivity;
 
 public class LoginActivity extends AppCompatActivity {
@@ -22,5 +23,9 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
+    }
+    public void  click_login(View view){
+        Intent click= new Intent(this, ConteinerActivity.class);
+        startActivity(click);
     }
 }

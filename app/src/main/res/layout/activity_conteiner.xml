@@ -4,8 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cibertpoet.cibert_app.view.ConteinerActivity">
+    tools:context="com.cibertpoet.cibert_app.view.ConteinerActivity"
 
-    <include layout="@layout/bottombar"></include>
+    >
+
+    <include layout="@layout/bottombar" />
+
+
 
 </android.support.constraint.ConstraintLayout>
